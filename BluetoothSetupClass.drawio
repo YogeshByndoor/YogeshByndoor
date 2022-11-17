@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T07:43:41.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PV04QGtaCz-wP8PP7t_e" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-17T11:20:15.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="k1Lv4-4lkDv8o9DF9EuQ" version="20.5.3" type="github" pages="2">
   <diagram id="loekf4PnN3u8NxQ48pQF" name="Page-1">
     <mxGraphModel dx="1774" dy="1537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cah_J3Dtk_vGSuO1M6zQ-8" value="BluetoothSetupFragment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="200" height="110" as="geometry" />
+          <mxGeometry x="40" y="40" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="cah_J3Dtk_vGSuO1M6zQ-9" value="+ Inject: BluetoothSetupViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-8" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -33,8 +33,8 @@
         <mxCell id="cah_J3Dtk_vGSuO1M6zQ-10" value="+ method: permssionCallBacks() " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-8" vertex="1">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="cah_J3Dtk_vGSuO1M6zQ-11" value="+ method: navigateToPermission()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-8" vertex="1">
-          <mxGeometry y="78" width="200" height="32" as="geometry" />
+        <mxCell id="cah_J3Dtk_vGSuO1M6zQ-11" value="+ method: navigateToPermission()&#xa;&#xa;+ method : navigateToFailure()&#xa;&#xa;+menthod : navigateToSuccess()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-8" vertex="1">
+          <mxGeometry y="78" width="200" height="92" as="geometry" />
         </mxCell>
         <mxCell id="ZfhjC0b_naHWXO43k5cM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="cah_J3Dtk_vGSuO1M6zQ-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -58,16 +58,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cah_J3Dtk_vGSuO1M6zQ-17" value="BluetoothSetupuseCase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="515" y="472" width="220" height="220" as="geometry" />
+          <mxGeometry x="515" y="472" width="230" height="250" as="geometry" />
         </mxCell>
         <mxCell id="cah_J3Dtk_vGSuO1M6zQ-18" value="+ field: BluetoothDeviceConfiguration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-17" vertex="1">
-          <mxGeometry y="26" width="220" height="26" as="geometry" />
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cah_J3Dtk_vGSuO1M6zQ-19" value="+ field: BluetoothClient" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-17" vertex="1">
-          <mxGeometry y="52" width="220" height="26" as="geometry" />
+          <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="cah_J3Dtk_vGSuO1M6zQ-20" value="+  field: connectCallBack&#xa;&#xa;+  method: getDeviceType():&#xa;&#xa;+  method: connectDevice()&#xa;&#xa;+ method : connectCallBack(): &#xa;&#xa; &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-17" vertex="1">
-          <mxGeometry y="78" width="220" height="142" as="geometry" />
+        <mxCell id="cah_J3Dtk_vGSuO1M6zQ-20" value="+ field: connectCallBack&#xa;&#xa;+ method: getDeviceType():&#xa;&#xa;+  method: connectDevice()&#xa;&#xa;+ method : getRaspInterface()&#xa;&#xa;+ method : getSerialNumber()&#xa;&#xa;+ method : connectCallBack(): &#xa;&#xa; &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cah_J3Dtk_vGSuO1M6zQ-17" vertex="1">
+          <mxGeometry y="78" width="230" height="172" as="geometry" />
         </mxCell>
         <mxCell id="cah_J3Dtk_vGSuO1M6zQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cah_J3Dtk_vGSuO1M6zQ-22" target="cah_J3Dtk_vGSuO1M6zQ-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -117,13 +117,20 @@
         <mxCell id="qRlDgPP8boytvZcHdsSd-13" value="Failure (Pass error message)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-28" y="-45" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZfhjC0b_naHWXO43k5cM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cah_J3Dtk_vGSuO1M6zQ-20" edge="1">
+        <mxCell id="ZfhjC0b_naHWXO43k5cM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="621" as="targetPoint" />
+            <mxPoint x="515" y="611" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="611" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZfhjC0b_naHWXO43k5cM-10" value="MDC Lib" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="278" y="593" width="120" height="60" as="geometry" />
+          <mxGeometry x="275" y="589" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVYUsgBki43ap_6F6hJj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cah_J3Dtk_vGSuO1M6zQ-15" target="cah_J3Dtk_vGSuO1M6zQ-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
